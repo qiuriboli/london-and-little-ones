@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>London & Little Ones · Bank Holiday Weekend, 2–4 May 2026</title>
+<meta name="description" content="A curated guide to family events in London for the May bank holiday weekend, 2–4 May 2026. Pulled from Loopla, Dads in London, The London Scoop and around the web.">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a2e;
+    --ink-soft: #3a3a4e;
+    --paper: #f7f3ea;
+    --cream: #ede7d8;
+    --red: #c8443a;
+    --green: #2f6a4d;
+    --gold: #c9a14c;
+    --blue: #2c5d99;
+    --plum: #7d3c69;
+    --muted: #8a7e6e;
+    --muted-soft: #b0a797;
+    --border: #d8d1bf;
+    --card: #ffffff;
+    --tag-bg: #ede7d8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: var(--paper); color: var(--ink); font-family: 'DM Sans', system-ui, sans-serif; line-height: 1.5; }
+  body {
+    background-image:
+      radial-gradient(circle at 15% 20%, rgba(201,161,76,0.08) 0%, transparent 35%),
+      radial-gradient(circle at 85% 70%, rgba(125,60,105,0.06) 0%, transparent 40%);
+    min-height: 100vh;
+  }
+
+  /* ---------- HEADER ---------- */
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 28px 24px 22px;
+    background: var(--paper);
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 6px;
+    background: repeating-linear-gradient(90deg, var(--red) 0 14px, var(--gold) 14px 28px, var(--green) 28px 42px, var(--blue) 42px 56px, var(--plum) 56px 70px);
+  }
+  .mast-inner {
+    max-width: 1180px; margin: 0 auto;
+    display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+  }
+  .brand { display: flex; flex-direction: column; gap: 4px; }
+  .eyebrow {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--muted); font-weight: 500;
+  }
+  .logo {
+    font-family: 'Fraunces', serif;
+    font-weight: 900; font-size: clamp(38px, 6vw, 62px);
+    letter-spacing: -0.02em; line-height: 0.95;
+    color: var(--ink);
+    font-style: italic;
+  }
+  .logo .amp { color: var(--red); font-style: normal; font-weight: 400; padding: 0 4px; }
+  .logo .little { color: var(--ink-soft); font-weight: 700; font-style: normal; }
+  .issue {
+    text-align: right; font-family: 'Fraunces', serif;
+    color: var(--ink-soft);
+  }
+  .issue-label { font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; font-family: 'DM Sans'; color: var(--muted); margin-bottom: 4px; }
+  .issue-date { font-size: 18px; font-weight: 500; }
+  .issue-tag {
+    display: inline-block; margin-top: 6px; padding: 3px 10px;
+    background: var(--ink); color: var(--paper); font-size: 11px; letter-spacing: 0.1em;
+    text-transform: uppercase; font-family: 'DM Sans', sans-serif; font-weight: 500;
+    border-radius: 2px;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    max-width: 1180px; margin: 0 auto;
+    padding: 40px 24px 30px;
+    display: grid; grid-template-columns: 1.4fr 1fr; gap: 50px; align-items: center;
+  }
+  @media (max-width: 800px) { .hero { grid-template-columns: 1fr; gap: 24px; padding: 28px 20px 20px; } }
+  .hero-headline {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(32px, 4.5vw, 56px);
+    line-height: 1.05; letter-spacing: -0.02em; font-weight: 700;
+    color: var(--ink);
+  }
+  .hero-headline em {
+    font-style: italic; color: var(--red); font-weight: 400;
+  }
+  .hero-headline .underline {
+    position: relative; display: inline-block;
+  }
+  .hero-headline .underline::after {
+    content: ''; position: absolute; left: 0; right: 0; bottom: 0.05em;
+    height: 0.18em; background: var(--gold); opacity: 0.5; z-index: -1;
+  }
+  .hero-blurb {
+    font-size: 16px; color: var(--ink-soft); line-height: 1.65;
+    border-left: 2px solid var(--gold);
+    padding: 6px 0 6px 18px;
+  }
+  .hero-blurb p + p { margin-top: 12px; }
+
+  /* ---------- TOC ---------- */
+  .toc {
+    max-width: 1180px; margin: 0 auto;
+    padding: 18px 24px 8px;
+    border-top: 1px dashed var(--border);
+    border-bottom: 1px dashed var(--border);
+    display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center;
+  }
+  .toc-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-right: 6px; }
+  .toc a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px; color: var(--ink); text-decoration: none;
+    padding: 4px 0; border-bottom: 1px solid transparent;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .toc a:hover { color: var(--red); border-bottom-color: var(--red); }
+
+  /* ---------- SECTIONS ---------- */
+  .section {
+    max-width: 1180px; margin: 0 auto;
+    padding: 50px 24px 20px;
+  }
+  .section-head {
+    display: flex; align-items: baseline; gap: 14px; margin-bottom: 24px;
+    border-bottom: 2px solid var(--ink); padding-bottom: 10px;
+  }
+  .section-num {
+    font-family: 'Fraunces', serif; font-style: italic; font-weight: 400;
+    font-size: 18px; color: var(--muted);
+  }
+  .section-title {
+    font-family: 'Fraunces', serif; font-weight: 700;
+    font-size: clamp(24px, 3vw, 34px); letter-spacing: -0.01em;
+    color: var(--ink); flex: 1;
+  }
+  .section-day { font-family: 'DM Sans'; font-size: 12px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
+
+  .section-intro {
+    font-size: 15px; color: var(--ink-soft); margin-bottom: 28px;
+    max-width: 720px; line-height: 1.7;
+  }
+
+  /* ---------- HEADLINE EVENTS ---------- */
+  .feature-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 28px;
+  }
+  .feature {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 26px 24px 22px;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex; flex-direction: column;
+  }
+  .feature:hover { transform: translateY(-2px); box-shadow: 0 14px 32px -18px rgba(26,26,46,0.2); }
+  .feature::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 5px; height: 100%;
+    border-radius: 4px 0 0 4px;
+  }
+  .feature.cat-outdoor::before { background: var(--green); }
+  .feature.cat-arts::before { background: var(--plum); }
+  .feature.cat-music::before { background: var(--blue); }
+  .feature.cat-play::before { background: var(--red); }
+  .feature.cat-workshop::before { background: var(--gold); }
+  .feature.cat-festival::before { background: var(--red); }
+  .feature.cat-film::before { background: var(--ink); }
+  .feature.cat-exhibition::before { background: var(--plum); }
+
+  .ftag-row { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+  .ftag {
+    font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600;
+    padding: 3px 8px; border-radius: 2px; background: var(--tag-bg); color: var(--ink-soft);
+  }
+  .ftag.free { background: var(--green); color: white; }
+  .ftag.bank { background: var(--red); color: white; }
+  .ftag.cat { border: 1px solid var(--border); background: transparent; color: var(--muted); }
+
+  .feature h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 24px; line-height: 1.15; font-weight: 700;
+    margin-bottom: 12px; letter-spacing: -0.01em;
+  }
+  .feature h3 a { color: var(--ink); text-decoration: none; background-image: linear-gradient(to right, var(--gold), var(--gold)); background-size: 0% 2px; background-repeat: no-repeat; background-position: left bottom; transition: background-size 0.3s; padding-bottom: 2px; }
+  .feature h3 a:hover { background-size: 100% 2px; }
+
+  .feature p {
+    font-size: 14px; color: var(--ink-soft); line-height: 1.6; margin-bottom: 16px; flex: 1;
+  }
+
+  .feature-meta {
+    display: grid; grid-template-columns: auto 1fr; gap: 6px 12px;
+    font-size: 13px; padding-top: 14px; border-top: 1px dashed var(--border); margin-top: auto;
+  }
+  .feature-meta dt { color: var(--muted); font-weight: 500; }
+  .feature-meta dd { color: var(--ink); }
+  .feature-source {
+    font-size: 11px; color: var(--muted); margin-top: 12px;
+    font-style: italic;
+  }
+  .feature-source::before { content: '✦ '; color: var(--gold); font-style: normal; }
+
+  /* ---------- DAY LISTINGS ---------- */
+  .day-list {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 14px;
+  }
+  .listing {
+    background: var(--card); border: 1px solid var(--border); padding: 16px 18px;
+    border-radius: 3px; position: relative;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  .listing:hover { border-color: var(--ink); transform: translateY(-1px); }
+  .listing-head { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; }
+  .listing-emoji { font-size: 20px; line-height: 1; flex-shrink: 0; margin-top: 1px; }
+  .listing-name {
+    font-family: 'Fraunces', serif; font-weight: 600; font-size: 16px; line-height: 1.25;
+    color: var(--ink); flex: 1;
+  }
+  .listing-name a { color: inherit; text-decoration: none; }
+  .listing-name a:hover { color: var(--red); }
+  .listing-meta { font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .listing-meta span { display: inline-flex; align-items: center; gap: 3px; }
+  .price-tag {
+    font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 2px;
+    background: var(--cream); color: var(--ink-soft); letter-spacing: 0.03em;
+  }
+  .price-tag.free { background: var(--green); color: white; }
+  .listing-source-dot {
+    position: absolute; top: 12px; right: 12px;
+    width: 6px; height: 6px; border-radius: 50%;
+  }
+  .src-loopla { background: #e91e8c; }
+  .src-dads { background: var(--blue); }
+  .src-scoop { background: var(--red); }
+  .src-web { background: var(--green); }
+
+  /* ---------- ONGOING ---------- */
+  .ongoing-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+  }
+  .ongoing {
+    padding: 12px 14px; border-left: 3px solid var(--gold);
+    background: var(--card); border-radius: 0 3px 3px 0;
+    border-top: 1px solid var(--border); border-right: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .ongoing-name {
+    font-family: 'Fraunces', serif; font-weight: 600; font-size: 14px; line-height: 1.25;
+    color: var(--ink); margin-bottom: 4px;
+  }
+  .ongoing-name a { color: inherit; text-decoration: none; }
+  .ongoing-name a:hover { text-decoration: underline; }
+  .ongoing-meta { font-size: 11px; color: var(--muted); }
+
+  /* ---------- LEGEND ---------- */
+  .legend {
+    max-width: 1180px; margin: 30px auto 0; padding: 20px 24px;
+    background: var(--cream); border-radius: 4px;
+    display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center;
+  }
+  .legend-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .legend-item { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--ink-soft); }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    margin-top: 60px; padding: 32px 24px 40px;
+    border-top: 2px solid var(--ink);
+    background: var(--ink); color: var(--paper);
+  }
+  .foot-inner { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; }
+  @media (max-width: 700px) { .foot-inner { grid-template-columns: 1fr; gap: 22px; } }
+  .foot-brand { font-family: 'Fraunces', serif; font-style: italic; font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .foot-brand .amp { color: var(--gold); font-style: normal; }
+  .foot-tag { font-size: 12px; color: var(--muted-soft); line-height: 1.6; }
+  .foot-col h4 { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted-soft); margin-bottom: 10px; }
+  .foot-col ul { list-style: none; }
+  .foot-col li { font-size: 13px; margin-bottom: 6px; }
+  .foot-col a { color: var(--paper); text-decoration: none; }
+  .foot-col a:hover { color: var(--gold); }
+  .foot-meta { margin-top: 30px; padding-top: 16px; border-top: 1px solid #2a2a3e; font-size: 11px; color: var(--muted-soft); text-align: center; }
+
+  /* ---------- WEATHER STRIP ---------- */
+  .news-strip {
+    background: var(--ink); color: var(--paper);
+    padding: 10px 24px; font-size: 12px;
+    display: flex; gap: 22px; align-items: center; justify-content: center;
+    flex-wrap: wrap;
+  }
+  .news-strip .item { display: flex; gap: 6px; align-items: center; }
+  .news-strip .item .lbl { color: var(--gold); font-weight: 600; letter-spacing: 0.05em; }
+
+  /* utility */
+  a { color: var(--red); }
+  ::selection { background: var(--gold); color: var(--ink); }
+</style>
+</head>
+<body>
+
+<!-- News strip -->
+<div class="news-strip">
+  <div class="item"><span class="lbl">★</span> May Day Bank Holiday Monday 4 May</div>
+  <div class="item"><span class="lbl">☀</span> Forecast looking sunny</div>
+  <div class="item"><span class="lbl">⚠</span> Marathon road closures cleared</div>
+</div>
+
+<!-- Masthead -->
+<header class="masthead">
+  <div class="mast-inner">
+    <div class="brand">
+      <div class="eyebrow">A weekly bulletin for parents in the capital</div>
+      <h1 class="logo">London <span class="amp">&</span> <span class="little">Little Ones</span></h1>
+    </div>
+    <div class="issue">
+      <div class="issue-label">Vol. 1 · Issue No. 7</div>
+      <div class="issue-date">Wednesday, 29 April 2026</div>
+      <span class="issue-tag">Bank Holiday Edition</span>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div>
+    <h2 class="hero-headline">
+      A long weekend of <em>unicorns</em>, <span class="underline">cardboard Macbeths</span>, and chickens to chat to.
+    </h2>
+  </div>
+  <div class="hero-blurb">
+    <p>The first bank holiday of the season has landed, and London has rolled out a programme so chaotic and joyful that picking is genuinely hard. We've sifted through this week's three best newsletters — Loopla, Dads in London and The London Scoop — plus a sweep of the wider web, and pulled out everything worth your Saturday.</p>
+    <p>Sunshine forecast. Marathon Sunday is behind us. Three full days ahead.</p>
+  </div>
+</section>
+
+<!-- TOC -->
+<nav class="toc">
+  <span class="toc-label">In this issue</span>
+  <a href="#editors">Editors' picks</a>
+  <a href="#sat">Saturday 2 May</a>
+  <a href="#sun">Sunday 3 May</a>
+  <a href="#mon">Monday 4 May</a>
+  <a href="#ongoing">Ongoing & exhibitions</a>
+  <a href="#further">Further afield</a>
+</nav>
+
+<!-- SECTION 1: EDITORS PICKS -->
+<section class="section" id="editors">
+  <div class="section-head">
+    <div class="section-num">No. 01</div>
+    <h2 class="section-title">Editors' picks for the bank holiday</h2>
+    <div class="section-day">Headline events</div>
+  </div>
+  <p class="section-intro">Six events we'd actually move plans for. Each pulled from our trusted sources and verified across the web. Tap to read more on the venue's site.</p>
+
+  <div class="feature-grid">
+
+    <article class="feature cat-outdoor">
+      <div class="ftag-row">
+        <span class="ftag bank">Bank Holiday</span>
+        <span class="ftag cat">Outdoor</span>
+        <span class="ftag cat">All ages</span>
+      </div>
+      <h3><a href="https://www.fulhampalace.org/whats-on/events/go-green-fest/" target="_blank" rel="noopener">Go Green Fest at Fulham Palace</a></h3>
+      <p>Reimagined from the old Green Meet into a hands-on day for kids: woodworking, eco crafts, "Guardians of the Rainforest" sessions, bee walks, chicken chats (yes, really), seed planting, bottle upcycling, and the first face-painting of the season. 29 activities, all but one suitable for children.</p>
+      <dl class="feature-meta">
+        <dt>📅</dt><dd>Sunday 3 May, 11:00–16:00</dd>
+        <dt>📍</dt><dd>Fulham Palace, Bishop's Avenue, SW6 6EA</dd>
+        <dt>🎟</dt><dd>Adults £5, children £3</dd>
+      </dl>
+      <div class="feature-source">Featured in Dads in London + The London Scoop</div>
+    </article>
+
+    <article class="feature cat-arts">
+      <div class="ftag-row">
+        <span class="ftag bank">Bank Holiday</span>
+        <span class="ftag cat">Theatre</span>
+        <span class="ftag cat">Ages 7–11</span>
+      </div>
+      <h3><a href="https://www.artsdepot.co.uk/event/makebeth/" target="_blank" rel="noopener">MakeBeth — Macbeth in cardboard</a></h3>
+      <p>Shakespeare's darkest tragedy reimagined as a "cardBARD" make-along. Audiences help build the witches' cauldron ingredients, masks for Banquo's ghost, and Birnam Wood itself. Three performers act, play music live, and keep things just silly enough to dodge nightmare territory.</p>
+      <dl class="feature-meta">
+        <dt>📅</dt><dd>Sunday 3 May, 11:00 & 14:00</dd>
+        <dt>📍</dt><dd>artsdepot, Tally Ho Corner, N12 0GA</dd>
+        <dt>🎟</dt><dd>£13.75 per person</dd>
+      </dl>
+      <div class="feature-source">Featured in Dads in London + The London Scoop</div>
+    </article>
+
+    <article class="feature cat-festival">
+      <div class="ftag-row">
+        <span class="ftag free">FREE</span>
+        <span class="ftag bank">Bank Holiday</span>
+        <span class="ftag cat">All ages</span>
+      </div>
+      <h3><a href="https://waterways.org.uk/events/canalway-cavalcade-2026" target="_blank" rel="noopener">Canalway Cavalcade at Little Venice</a></h3>
+      <p>Dozens of canal boats moor up in Little Venice for three days of live music, children's activities, and an illuminated boat parade in the evening. One of the loveliest, most chilled-out free outings of the bank holiday — a real picnic-by-the-water kind of day.</p>
+      <dl class="feature-meta">
+        <dt>📅</dt><dd>Saturday 2 – Monday 4 May</dd>
+        <dt>📍</dt><dd>Little Venice, W2</dd>
+        <dt>🎟</dt><dd>Free</dd>
+      </dl>
+      <div class="feature-source">Sourced from Londonist + Loopla</div>
+    </article>
+
+    <article class="feature cat-play">
+      <div class="ftag-row">
+        <span class="ftag bank">Bank Holiday</span>
+        <span class="ftag cat">Animals</span>
+        <span class="ftag cat">All ages</span>
+      </div>
+      <h3><a href="https://book.loopla.com/zsl/big-birthday-bash" target="_blank" rel="noopener">London Zoo Big Birthday Bash</a></h3>
+      <p>Part of ZSL's 200th anniversary, a family street party across the zoo split into four zones: Party Animals (live music), the Winning Zone (fairground games), Creation Station (crafts), and the Birthday Banquet (food stalls). Included with zoo entry. Zoo lodges available too if you fancy sleeping with the lions.</p>
+      <dl class="feature-meta">
+        <dt>📅</dt><dd>Saturday 2 – Monday 4 May</dd>
+        <dt>📍</dt><dd>London Zoo, Regent's Park, NW1</dd>
+        <dt>🎟</dt><dd>Included with zoo entry</dd>
+      </dl>
+      <div class="feature-source">Featured in Loopla + Londonist</div>
+    </article>
+
+    <article class="feature cat-film">
+      <div class="ftag-row">
+        <span class="ftag cat">Cinema</span>
+        <span class="ftag cat">Ages 5+</span>
+      </div>
+      <h3><a href="https://www.barbican.org.uk/whats-on/2026/event/family-film-club-finding-dory" target="_blank" rel="noopener">Family Film Club: Finding Dory</a></h3>
+      <p>Pixar's amnesiac fish on the big screen, ten years on. The Barbican's Family Film Club gives the kids cinema seats, snacks, and a properly turned-down volume. £2.50 for under-18s makes this the cheapest morning out of the weekend by some margin.</p>
+      <dl class="feature-meta">
+        <dt>📅</dt><dd>Saturday 2 May, 11:00</dd>
+        <dt>📍</dt><dd>Barbican Centre, Silk Street, EC2Y 8DS</dd>
+        <dt>🎟</dt><dd>Adults £5, under-18s £2.50</dd>
+      </dl>
+      <div class="feature-source">Featured in Dads in London</div>
+    </article>
+
+    <article class="feature cat-workshop">
+      <div class="ftag-row">
+        <span class="ftag cat">Science</span>
+        <span class="ftag cat">Ages 6+</span>
+      </div>
+      <h3><a href="https://www.rigb.org/whats-on/mathmagics-family" target="_blank" rel="noopener">Mathmagics! at the Royal Institution</a></h3>
+      <p>David Hall's interactive maths show in the same Mayfair lecture theatre where Faraday demonstrated electromagnetic induction. Tricks, stories and facts spanning centuries — pitched to delight maths-lovers and convert maths-avoiders. Selling out fast; new tickets being released.</p>
+      <dl class="feature-meta">
+        <dt>📅</dt><dd>Saturday 2 May</dd>
+        <dt>📍</dt><dd>Royal Institution, Mayfair, W1S</dd>
+        <dt>🎟</dt><dd>From £10</dd>
+      </dl>
+      <div class="feature-source">Featured in The London Scoop</div>
+    </article>
+
+  </div>
+</section>
+
+<!-- SECTION 2: SATURDAY -->
+<section class="section" id="sat">
+  <div class="section-head">
+    <div class="section-num">No. 02</div>
+    <h2 class="section-title">Saturday 2 May</h2>
+    <div class="section-day">Day one</div>
+  </div>
+
+  <div class="day-list">
+
+    <div class="listing">
+      <span class="listing-source-dot src-dads"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🎬</span>
+        <div class="listing-name"><a href="https://www.barbican.org.uk/whats-on/2026/event/family-film-club-finding-dory" target="_blank" rel="noopener">Family Film Club: Finding Dory</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>11:00</span>
+        <span>· Barbican, EC2Y</span>
+        <span>· Ages 5+</span>
+        <span class="price-tag">From £2.50</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🔢</span>
+        <div class="listing-name"><a href="https://www.rigb.org/whats-on/mathmagics-family" target="_blank" rel="noopener">Mathmagics! Family Show</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Royal Institution, W1S</span>
+        <span>· Ages 6–17</span>
+        <span class="price-tag">From £10</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-dads"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🛹</span>
+        <div class="listing-name"><a href="https://www.southbankcentre.co.uk/whats-on/skate-50/" target="_blank" rel="noopener">Skate 50 (Opening Weekend)</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Southbank Centre, SE1</span>
+        <span>· All ages</span>
+        <span class="price-tag">£0–£10 PWYC</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🎨</span>
+        <div class="listing-name"><a href="https://leightonhouse.digitickets.co.uk/event-tickets/74927" target="_blank" rel="noopener">Clay Workshop with Visiting Ceramicist</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Leighton House, W14</span>
+        <span>· Ages 11–16</span>
+        <span class="price-tag">£10</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌾</span>
+        <div class="listing-name"><a href="https://www.tickettailor.com/events/artofthepuppetltd/2036788" target="_blank" rel="noopener">The Enormous Turnip (puppet show)</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Puppet Theatre Barge, W9</span>
+        <span>· Ages 3–8</span>
+        <span class="price-tag">£12</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚣</span>
+        <div class="listing-name"><a href="https://waterways.org.uk/events/canalway-cavalcade-2026" target="_blank" rel="noopener">Canalway Cavalcade Day 1</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Little Venice, W2</span>
+        <span>· All ages</span>
+        <span class="price-tag free">FREE</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🦁</span>
+        <div class="listing-name"><a href="https://book.loopla.com/zsl/big-birthday-bash" target="_blank" rel="noopener">London Zoo Big Birthday Bash</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>London Zoo, NW1</span>
+        <span>· All ages</span>
+        <span class="price-tag">Zoo entry</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌸</span>
+        <div class="listing-name"><a href="https://www.wwt.org.uk/wetland-centres/london" target="_blank" rel="noopener">Migration Festival at WWT London</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>WWT Barnes, SW13</span>
+        <span>· All ages</span>
+        <span class="price-tag">Wetland Centre entry</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🐑</span>
+        <div class="listing-name"><a href="https://www.surreydocksfarm.org.uk/" target="_blank" rel="noopener">Lamb Feeding at Surrey Docks Farm</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Surrey Docks Farm, SE16</span>
+        <span>· All ages</span>
+        <span class="price-tag free">FREE</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🍱</span>
+        <div class="listing-name"><a href="https://www.kingscross.co.uk/event/canopy-market" target="_blank" rel="noopener">Korean Food Festival</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Canopy Market, King's Cross N1C</span>
+        <span>· All ages</span>
+        <span class="price-tag free">FREE entry</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌷</span>
+        <div class="listing-name"><a href="https://www.tulipfarm.co.uk/" target="_blank" rel="noopener">Tulleys Tulip Fest (closing weekend)</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>~1.5 hours from London</span>
+        <span>· All ages</span>
+        <span class="price-tag">Ticketed</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚂</span>
+        <div class="listing-name"><a href="https://www.kxtickets.com/whats-on/starlight-express" target="_blank" rel="noopener">Starlight Express (final weekend)</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Troubadour Wembley Park, HA9</span>
+        <span>· All ages</span>
+        <span class="price-tag">From £95</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 3: SUNDAY -->
+<section class="section" id="sun">
+  <div class="section-head">
+    <div class="section-num">No. 03</div>
+    <h2 class="section-title">Sunday 3 May</h2>
+    <div class="section-day">Day two</div>
+  </div>
+
+  <div class="day-list">
+
+    <div class="listing">
+      <span class="listing-source-dot src-dads"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌿</span>
+        <div class="listing-name"><a href="https://www.fulhampalace.org/whats-on/events/go-green-fest/" target="_blank" rel="noopener">Go Green Fest at Fulham Palace</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>11:00–16:00</span>
+        <span>· Fulham Palace, SW6</span>
+        <span>· All ages</span>
+        <span class="price-tag">£3–£5</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-dads"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🎭</span>
+        <div class="listing-name"><a href="https://www.artsdepot.co.uk/event/makebeth/" target="_blank" rel="noopener">MakeBeth (cardboard Macbeth)</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>11:00 & 14:00</span>
+        <span>· artsdepot, N12</span>
+        <span>· Ages 7–11</span>
+        <span class="price-tag">£13.75</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">✏️</span>
+        <div class="listing-name"><a href="https://www.radlettcentre.co.uk/What-s-On/Children/Tom-Gates" target="_blank" rel="noopener">Tom Gates Live</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Radlett Centre, WD7</span>
+        <span>· All ages</span>
+        <span class="price-tag">From £17.50</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🎶</span>
+        <div class="listing-name"><a href="https://www.jacksonslane.org.uk/events/nocturne/" target="_blank" rel="noopener">Nocturne: Norwegian Folklore Musical</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Jacksons Lane, N6</span>
+        <span>· Ages 9+</span>
+        <span class="price-tag">Ticketed</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌾</span>
+        <div class="listing-name"><a href="https://www.tickettailor.com/events/artofthepuppetltd/2036788" target="_blank" rel="noopener">The Enormous Turnip Day 2</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Puppet Theatre Barge, W9</span>
+        <span>· Ages 3–8</span>
+        <span class="price-tag">£12</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚣</span>
+        <div class="listing-name"><a href="https://waterways.org.uk/events/canalway-cavalcade-2026" target="_blank" rel="noopener">Canalway Cavalcade — illuminated boats</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Little Venice, W2</span>
+        <span>· All ages</span>
+        <span class="price-tag free">FREE</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌸</span>
+        <div class="listing-name"><a href="https://www.hrp.org.uk/hampton-court-palace/whats-on/tulip-festival/" target="_blank" rel="noopener">Hampton Court Palace Tulip Festival</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Hampton Court Palace, KT8</span>
+        <span>· All ages</span>
+        <span class="price-tag">Palace entry</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🎉</span>
+        <div class="listing-name"><a href="https://www.zsl.org/" target="_blank" rel="noopener">London Zoo Big Birthday Bash Day 2</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>London Zoo, NW1</span>
+        <span>· All ages</span>
+        <span class="price-tag">Zoo entry</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🦄</span>
+        <div class="listing-name"><a href="https://www.tickettailor.com/events/mylittleunicorn/1933199" target="_blank" rel="noopener">My Little Unicorn Encounter</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Surrey, ~1.5hrs from London</span>
+        <span>· Ages 2+</span>
+        <span class="price-tag">From £50</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚂</span>
+        <div class="listing-name"><a href="https://www.ruisliplidorailway.org/" target="_blank" rel="noopener">Ruislip Lido Railway Gala</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Ruislip Lido, HA4</span>
+        <span>· All ages</span>
+        <span class="price-tag">Low cost</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 4: MONDAY -->
+<section class="section" id="mon">
+  <div class="section-head">
+    <div class="section-num">No. 04</div>
+    <h2 class="section-title">Bank Holiday Monday 4 May</h2>
+    <div class="section-day">Day three</div>
+  </div>
+
+  <div class="day-list">
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚣</span>
+        <div class="listing-name"><a href="https://waterways.org.uk/events/canalway-cavalcade-2026" target="_blank" rel="noopener">Canalway Cavalcade — final day</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Little Venice, W2</span>
+        <span>· All ages</span>
+        <span class="price-tag free">FREE</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🦁</span>
+        <div class="listing-name"><a href="https://www.zsl.org/" target="_blank" rel="noopener">Big Birthday Bash — final day</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>London Zoo, NW1</span>
+        <span>· All ages</span>
+        <span class="price-tag">Zoo entry</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🎢</span>
+        <div class="listing-name"><a href="https://book.loopla.com/legoland/30th-celebration" target="_blank" rel="noopener">LEGOLAND Windsor 30th Birthday</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Windsor, SL4</span>
+        <span>· All ages</span>
+        <span class="price-tag">From £33</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🐶</span>
+        <div class="listing-name"><a href="https://book.loopla.com/chessington/paw-patrol" target="_blank" rel="noopener">Chessington — new PAW Patrol rides</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Chessington, KT9</span>
+        <span>· All ages</span>
+        <span class="price-tag">Park entry</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚜</span>
+        <div class="listing-name"><a href="https://www.diggerland.com/" target="_blank" rel="noopener">Diggerland Kent</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Strood, Kent</span>
+        <span>· All ages</span>
+        <span class="price-tag">From £25.95</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌳</span>
+        <div class="listing-name"><a href="https://www.royalparks.org.uk/parks/the-regents-park" target="_blank" rel="noopener">New Queen Elizabeth II Garden</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Regent's Park, NW1</span>
+        <span>· All ages</span>
+        <span class="price-tag free">FREE</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-web"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚂</span>
+        <div class="listing-name"><a href="https://www.ruisliplidorailway.org/" target="_blank" rel="noopener">Ruislip Lido Railway Gala Day 2</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Ruislip Lido, HA4</span>
+        <span>· All ages</span>
+        <span class="price-tag">Low cost</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚀</span>
+        <div class="listing-name"><a href="https://lightroom.uk/whats-on/david-bowie-youre-not-alone/" target="_blank" rel="noopener">David Bowie: You're Not Alone</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Lightroom, N1C</span>
+        <span>· All ages</span>
+        <span class="price-tag">From £19.50</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 5: ONGOING -->
+<section class="section" id="ongoing">
+  <div class="section-head">
+    <div class="section-num">No. 05</div>
+    <h2 class="section-title">Still on, all weekend</h2>
+    <div class="section-day">Exhibitions & runs</div>
+  </div>
+  <p class="section-intro">Drop-in exhibits and longer runs that work for any of the three days. Many are free, all are indoor — handy if the forecast turns.</p>
+
+  <div class="ongoing-grid">
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story" target="_blank" rel="noopener">The Music Is Black: A British Story</a></div>
+      <div class="ongoing-meta">V&A East, E20 · Free under 12 · Until 3 Jan 2027</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.britishmuseum.org/exhibitions/early-netherlandish-drawings" target="_blank" rel="noopener">Early Netherlandish Drawings</a></div>
+      <div class="ongoing-meta">British Museum, WC1B · FREE · Until 20 Sep</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://events.bl.uk/exhibitions/fairy-tales" target="_blank" rel="noopener">Fairy Tales</a></div>
+      <div class="ongoing-meta">British Library, NW1 · Ages 3–10 · Until 23 Aug</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends" target="_blank" rel="noopener">Inside Aardman: Wallace & Gromit</a></div>
+      <div class="ongoing-meta">Young V&A, E2 · £11 · Until 15 Nov</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.horniman.ac.uk/event/voyage-to-the-deep-underwater-adventures/" target="_blank" rel="noopener">Voyage to the Deep</a></div>
+      <div class="ongoing-meta">Horniman Museum, SE23 · Ages 2+ · Until 1 Nov</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.horniman.ac.uk/event/octonauts-adventure-at-the-horniman/" target="_blank" rel="noopener">Octonauts at the Horniman</a></div>
+      <div class="ongoing-meta">Horniman Museum, SE23 · FREE · Until 1 Nov</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://mundopixar.com/en/cities/london" target="_blank" rel="noopener">Mundo Pixar Experience</a></div>
+      <div class="ongoing-meta">Wembley, HA9 · From £22 · Until 28 Jun</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://designmuseum.org/exhibitions/nigo-from-japan-with-love" target="_blank" rel="noopener">NIGO: From Japan With Love</a></div>
+      <div class="ongoing-meta">Design Museum, W8 · From £10 · Until 4 Oct</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.iwm.org.uk/events/beauty-and-destruction-wartime-london-in-art" target="_blank" rel="noopener">Beauty & Destruction: Wartime London</a></div>
+      <div class="ongoing-meta">Imperial War Museum, SE1 · FREE · Until 1 Nov</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.tate.org.uk/whats-on/tate-modern/tracey-emin" target="_blank" rel="noopener">Tracey Emin: A Second Life</a></div>
+      <div class="ongoing-meta">Tate Modern, SE1 · Free under 12 · Until 31 Aug</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.hrp.org.uk/kensington-palace/whats-on/the-last-princesses-of-punjab" target="_blank" rel="noopener">The Last Princess of Punjab</a></div>
+      <div class="ongoing-meta">Kensington Palace, W8 · With admission · Until 8 Nov</div>
+    </div>
+
+    <div class="ongoing">
+      <div class="ongoing-name"><a href="https://www.littleangeltheatre.com/whats-on/i-want-my-hat-back-trilogy-2/" target="_blank" rel="noopener">I Want My Hat Back Trilogy</a></div>
+      <div class="ongoing-meta">Little Angel Theatre, N1 · Ages 3–6 · Until 9 May</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 6: FURTHER -->
+<section class="section" id="further">
+  <div class="section-head">
+    <div class="section-num">No. 06</div>
+    <h2 class="section-title">Further afield, if you fancy a drive</h2>
+    <div class="section-day">Out of town</div>
+  </div>
+
+  <div class="day-list">
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🦄</span>
+        <div class="listing-name"><a href="https://www.tickettailor.com/events/mylittleunicorn/1933199" target="_blank" rel="noopener">My Little Unicorn Encounter</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Sun 3 May · Surrey GU1</span>
+        <span>· Ages 2+</span>
+        <span class="price-tag">From £50</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🌷</span>
+        <div class="listing-name"><a href="https://www.tulipfarm.co.uk/" target="_blank" rel="noopener">Tulleys Tulip Fest (closing)</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Sat–Mon · West Sussex</span>
+        <span>· All ages</span>
+        <span class="price-tag">Ticketed</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🚜</span>
+        <div class="listing-name"><a href="https://www.diggerland.com/" target="_blank" rel="noopener">Diggerland Kent</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Sat–Mon · Strood, Kent</span>
+        <span>· All ages</span>
+        <span class="price-tag">From £25.95</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-loopla"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🎢</span>
+        <div class="listing-name"><a href="https://book.loopla.com/legoland/30th-celebration" target="_blank" rel="noopener">LEGOLAND Windsor 30th Birthday</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Sat–Mon · Windsor, SL4</span>
+        <span>· All ages</span>
+        <span class="price-tag">From £33</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🐺</span>
+        <div class="listing-name"><a href="https://www.radlettcentre.co.uk/What-s-On/Children/Gruffalo" target="_blank" rel="noopener">The Gruffalo (25th anniversary tour)</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Tue–Thu · Radlett, WD7</span>
+        <span>· Ages 3+</span>
+        <span class="price-tag">£15.50</span>
+      </div>
+    </div>
+
+    <div class="listing">
+      <span class="listing-source-dot src-scoop"></span>
+      <div class="listing-head">
+        <span class="listing-emoji">🥋</span>
+        <div class="listing-name"><a href="https://www.atgtickets.com/venues/new-wimbledon-theatre" target="_blank" rel="noopener">Karate Kid The Musical</a></div>
+      </div>
+      <div class="listing-meta">
+        <span>Tue 28 Apr–9 May · Wimbledon</span>
+        <span>· Ages 6+</span>
+        <span class="price-tag">From £22</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- LEGEND -->
+<div class="legend">
+  <span class="legend-label">Sources</span>
+  <span class="legend-item"><span class="legend-dot" style="background:#e91e8c"></span> Loopla</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--blue)"></span> Dads in London</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--red)"></span> The London Scoop</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--green)"></span> Web research</span>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div>
+      <div class="foot-brand">London <span class="amp">&</span> Little Ones</div>
+      <p class="foot-tag">A weekly bulletin of family events in London, sifted, sorted, and de-duplicated from Loopla, Dads in London, The London Scoop and the wider web. Built because newsletter inboxes are chaos and event listings should have proper times on them.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Sources</h4>
+      <ul>
+        <li><a href="https://loopla.com" target="_blank" rel="noopener">Loopla</a></li>
+        <li><a href="https://www.dadsinlondon.com" target="_blank" rel="noopener">Dads in London</a></li>
+        <li><a href="https://www.thelondonscoop.com" target="_blank" rel="noopener">The London Scoop</a></li>
+        <li><a href="https://www.happity.co.uk" target="_blank" rel="noopener">Happity</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4>This issue</h4>
+      <ul>
+        <li>~50 events curated</li>
+        <li>2–4 May 2026</li>
+        <li>Refreshed Wed 29 Apr</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-meta">
+    Always confirm timings & ticket availability with the venue. Built with care for the chaos of family weekends.
+  </div>
+</footer>
+
+</body>
+</html>
